@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nnnnnnnnnnnnavvvi"
+    app:startDestination="@id/stttaarrrrrtFragment">
+
+    <fragment
+        android:id="@+id/stttaarrrrrtFragment"
+        android:name="com.superplusgames.hosandroi.fraaagmentsss.StttaarrrrrtFragment"
+        android:label="fragment_stttaarrrrrt"
+        tools:layout="@layout/fragment_stttaarrrrrt" >
+        <action
+            android:id="@+id/action_stttaarrrrrtFragment_to_reeeeeeelllloaoaoaFragment"
+            app:destination="@id/reeeeeeelllloaoaoaFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/stttaarrrrrtFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/reeeeeeelllloaoaoaFragment"
+        android:name="com.superplusgames.hosandroi.fraaagmentsss.ReeeeeeelllloaoaoaFragment"
+        android:label="fragment_reeeeeeelllloaoaoa"
+        tools:layout="@layout/fragment_reeeeeeelllloaoaoa" >
+        <action
+            android:id="@+id/action_reeeeeeelllloaoaoaFragment_to_stttaarrrrrtFragment"
+            app:destination="@id/stttaarrrrrtFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/stttaarrrrrtFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
